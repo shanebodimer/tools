@@ -1,0 +1,47 @@
+{
+  "url": "shanebodimer.com",
+  "tests": [
+    {
+      "title": "Loads home page without www with https://",
+      "protocol": "https://",
+      "prepend": "",
+      "postpend": "",
+      "expect": "Nova"
+    },
+    {
+      "title": "Loads home page without www with http://",
+      "protocol": "http://",
+      "prepend": "",
+      "postpend": "",
+      "expect": "Nova"
+    },
+    {
+      "title": "Loads home page with www with https://",
+      "protocol": "https://",
+      "prepend": "www.",
+      "postpend": "",
+      "expect": "Nova"
+    },
+    {
+      "title": "Loads home page with www with http://",
+      "protocol": "http://",
+      "prepend": "www.",
+      "postpend": "",
+      "expect": "Nova"
+    },
+    {
+      "title": "Loads non-root page",
+      "protocol": "https://",
+      "prepend": "",
+      "postpend": "/collection",
+      "expect": "March 2024"
+    },
+    {
+      "title": "Loads 404 page",
+      "protocol": "https://",
+      "prepend": "",
+      "postpend": "/should404",
+      "expect": "404 bro"
+    }
+  ]
+}
