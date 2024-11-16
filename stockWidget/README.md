@@ -29,4 +29,4 @@ Here is what it looks like:
 
 ![](./screenshot.PNG)
 
-![](./home.png)
+![](./home.PNG)
